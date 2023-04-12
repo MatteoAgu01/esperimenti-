@@ -1,7 +1,8 @@
 <template>
 	<header>
-		<div>
-			<h1 class="d-flex flex-column align-items-center justify-copntent-center">{{ title }}</h1>
+		<div class="d-flex flex-column align-items-center justify-content-center">
+			<h1 class="m-0">{{ title }}</h1>
+			<p>{{ subTitle }}</p>
 		</div>
 	</header>
 </template>
@@ -12,6 +13,7 @@ export default {
 	data() {
 		return {
 			title: "hello world",
+			subTitle: "my first page with Vite"
 		}
 	}
 }
